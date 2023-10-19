@@ -1,0 +1,56 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.856);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  transform: scale(0);
+  transition: all 0.4s;
+
+  &__container {
+    max-width: 450px;
+    background-color: red;
+    min-height: 500px;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+
+    & img {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  &__cerrar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0.2rem;
+    cursor: pointer;
+  }
+}
+
+.modal.flex {
+  display: flex;
+  transform: scale(1) rotate(1turn);
+}
+
+iframe{
+  display: block;
+  margin-top: 2rem;
+  aspect-ratio: 1/1;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "WQDD",
+      "precio": "DWQW",
+      "stock": "DQWD",
+      "marca": "DWQW",
+      "categoria": "DQW",
+      "detalles": "DQW",
+      "foto": "DQW",
+      "envio": true
+    },
+    {
+      "id": 2,
+      "nombre": "Esteban",
+      "precio": "ssq",
+      "stock": "SQ",
+      "marca": "SS",
+      "categoria": "QSSQ",
+      "detalles": "S",
+      "foto": "SSQS",
+      "envio": true
+    }
+  ],
+  "carrito": [
+    [
+      {
+        "id": 9,
+        "nombre": "Producto X",
+        "precio": "2222",
+        "stock": "2",
+        "marca": "Sorny",
+        "categoria": "Electro",
+        "detalles": "Nueva tele 8Kkkkk",
+        "foto": "img/apple-iphone-11-pro-max.jpg",
+        "envio": true,
+        "cantidad": 1
+      },
+      {
+        "nombre": "Samsung",
+        "detalles": "Facere molestiae odio neque rerum provident voluptas",
+        "foto": "img/celular-samsung.jpg",
+        "precio": 1200,
+        "stock": 4,
+        "marca": "Samsung",
+        "categoria": "celulares",
+        "id": 5,
+        "envio": true,
+        "cantidad": 1
+      }
+    ]
+  ]
+}
